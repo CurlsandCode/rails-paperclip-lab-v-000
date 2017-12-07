@@ -1335,3 +1335,5 @@ Migrating to AddAttachmentImageToSongs (20171207115242)
             FROM sqlite_temp_master
             WHERE name='index_songs_on_artist_id' AND type='index'
 
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddAttachmentImageToSongs (20171207115242)
