@@ -586,3 +586,4 @@ Completed 200 OK in 378ms (Views: 370.0ms | ActiveRecord: 0.0ms)
   [1m[35mArtist Load (0.2ms)[0m  SELECT  "artists".* FROM "artists" WHERE "artists"."name" = ? LIMIT 1  [["name", "Pixies"]]
   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
   [1m[35mSQL (0.2ms)[0m  INSERT INTO "songs" ("artist_id", "title", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["artist_id", 6], ["title", "Monkey Gone to Heaven"], ["created_at", "2017-12-07 11:47:36.167302"], ["updated_at", "2017-12-07 11:47:36.167302"]]
+  [1m[36m (4.3ms)[0m  [1mcommit transaction[0m
